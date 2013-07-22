@@ -1,0 +1,5 @@
+*.egg*
+.idea
+build
+dist
+*.DS_Store
