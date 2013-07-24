@@ -1,5 +1,6 @@
-from encoders import GeneralEncoder
-from services import Service, DbService
+from .encoders import GeneralEncoder
+from .mixins import DbMixin, SSHMixin
+from .services import Service
 
 import json
 
