@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='Aqua',
-    version='0.005',
+    version='0.006',
     description='Asynchronous Queries Uniformly Aggregated',
     author='Bryan Moyles',
     author_email='bryan.moyles@teltechcorp.com',

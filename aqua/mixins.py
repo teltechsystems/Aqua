@@ -28,7 +28,7 @@ class SSHMixin(object):
             command_parts.append('-p %s' % self.ssh_params['port'])
 
         # command_parts.append('"sh -c \\\"%s\\\"' % (command, ))
-        command_parts.append('"%s"' % (command.replace('"', '\\\"'), ))
+        command_parts.append('"%s"' % (command.replace('\\', '\\\\').replace('"', '\\\"'), ))
 
         print ' '.join(command_parts)
 
